@@ -1,0 +1,43 @@
+{
+  "name": "@enso-ui/wysiwyg",
+  "version": "1.0.0",
+  "description": "WYSIWYG",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enso-ui/wysiwyg.git"
+  },
+  "keywords": [
+    "wysiwyg",
+    "vue"
+  ],
+  "author": "Adrian Ocneanu <aocneanu@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enso-ui/wysiwyg/issues"
+  },
+  "homepage": "https://github.com/enso-ui/wysiwyg#readme",
+  "devDependencies": {
+    "@vue/eslint-config-airbnb": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "cross-env": "^5.1.6",
+    "eslint": "^5.0.1",
+    "eslint-plugin-vue": "^5.0.0",
+    "laravel-mix": "3.0.0",
+    "node-sass": "^4.11.0",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.2.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.2",
+    "@fortawesome/free-solid-svg-icons": "^5.2.0",
+    "@fortawesome/vue-fontawesome": "^0.1.1",
+    "tiptap": "^1.14.0",
+    "tiptap-commands": "^1.7.0",
+    "tiptap-extensions": "^1.14.0",
+    "vue": "^2.6.8"
+  }
+}
