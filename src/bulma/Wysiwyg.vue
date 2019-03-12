@@ -157,16 +157,16 @@
                         </span>
                     </a>
                     <a class="button tiptap-control"
-						@click="commands.createTable({
+                        @click="commands.createTable({
                             rowsCount: 3, colsCount: 3, withHeaderRow: false
                         })">
                         <span class="icon">
-                            <fa icon="table" />
+                            <fa icon="table"/>
                         </span>
-					</a>
-					<span v-if="isActive.table()">
-						<a class="button tiptap-control"
-							@click="commands.deleteTable">
+                    </a>
+                    <span v-if="isActive.table()">
+                        <a class="button tiptap-control"
+                            @click="commands.deleteTable">
                             <span class="icon">
                                 <fal>
                                     <fa icon="table"/>
@@ -175,9 +175,9 @@
                                         transform="shrink-5 up-5 right-8"/>
                                 </fal>
                             </span>
-						</a>
-						<a class="button tiptap-control"
-							@click="commands.addColumnBefore">
+                        </a>
+                        <a class="button tiptap-control"
+                            @click="commands.addColumnBefore">
                             <span class="icon">
                                  <fal>
                                     <fa icon="grip-lines"
@@ -187,9 +187,9 @@
                                         transform="shrink-7 down-5 left-8"/>
                                 </fal>
                             </span>
-						</a>
-						<a class="button tiptap-control"
-							@click="commands.addColumnAfter">
+                        </a>
+                        <a class="button tiptap-control"
+                            @click="commands.addColumnAfter">
                             <span class="icon">
                                  <fal>
                                     <fa icon="grip-lines"
@@ -199,9 +199,9 @@
                                         transform="shrink-7 down-5 right-8"/>
                                 </fal>
                             </span>
-						</a>
-						<a class="button tiptap-control"
-							@click="commands.deleteColumn">
+                        </a>
+                        <a class="button tiptap-control"
+                            @click="commands.deleteColumn">
                             <span class="icon">
                                  <fal>
                                     <fa icon="grip-lines"
@@ -211,9 +211,9 @@
                                         transform="shrink-7 up-5 right-8"/>
                                 </fal>
                             </span>
-						</a>
-						<a class="button tiptap-control"
-							@click="commands.addRowBefore">
+                        </a>
+                        <a class="button tiptap-control"
+                            @click="commands.addRowBefore">
                             <span class="icon">
                                  <fal>
                                     <fa icon="grip-lines"/>
@@ -222,9 +222,9 @@
                                         transform="shrink-7 up-7"/>
                                 </fal>
                             </span>
-						</a>
-						<a class="button tiptap-control"
-							@click="commands.addRowAfter">
+                        </a>
+                       <a class="button tiptap-control"
+                            @click="commands.addRowAfter">
                             <span class="icon">
                                  <fal>
                                     <fa icon="grip-lines"/>
@@ -233,9 +233,9 @@
                                         transform="shrink-7 down-7"/>
                                 </fal>
                             </span>
-						</a>
-						<a class="button tiptap-control"
-							@click="commands.deleteRow">
+                        </a>
+                        <a class="button tiptap-control"
+                            @click="commands.deleteRow">
                             <span class="icon">
                                  <fal>
                                     <fa icon="grip-lines"/>
@@ -244,9 +244,9 @@
                                         transform="shrink-7 up-7 right-8"/>
                                 </fal>
                             </span>
-						</a>
-						<a class="button tiptap-control"
-							@click="commands.toggleCellMerge">
+                        </a>
+                        <a class="button tiptap-control"
+                            @click="commands.toggleCellMerge">
                             <span class="icon">
                                 <fal>
                                     <fa icon="arrow-right"
@@ -254,10 +254,10 @@
                                     <fa icon="arrow-left"
                                         transform="shrink-6 right-6"/>
                                 </fal>
-                                
+
                             </span>
-						</a>
-					</span>
+                        </a>
+                    </span>
                     <a class="button tiptap-control"
                         @click="editable = !editable"
                         v-if="!readonly">
@@ -320,7 +320,7 @@ import {
 import {
     Blockquote, CodeBlock, HardBreak, Heading, HorizontalRule, OrderedList,
     BulletList, ListItem, TodoItem, TodoList, Bold, Code, Italic, Link, Strike,
-    Underline, History, Table, TableHeader, TableCell, TableRow, Placeholder
+    Underline, History, Table, TableHeader, TableCell, TableRow, Placeholder,
 } from 'tiptap-extensions';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
@@ -600,7 +600,7 @@ export default {
             &.is-active {
                 opacity: 1;
             }
-            
+
             &.is-inactive {
                 opacity: 0.3;
                 pointer-events: none;
