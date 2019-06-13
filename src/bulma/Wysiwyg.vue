@@ -319,7 +319,7 @@ import {
 } from 'tiptap';
 import {
     Blockquote, CodeBlock, HardBreak, Heading, HorizontalRule, OrderedList,
-    BulletList, ListItem, TodoItem, TodoList, Bold, Code, Italic, Link, Strike,
+    BulletList, ListItem, TodoItem, TodoList, Bold, Code, Italic, Strike,
     Underline, History, Table, TableHeader, TableCell, TableRow, Placeholder,
 } from 'tiptap-extensions';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -329,6 +329,7 @@ import {
     faHeading, faAlignLeft, faAlignRight, faAlignCenter, faTimes, faUndo, faRedo,
     faTable, faMinus, faGripLines, faPlus, faArrowLeft, faArrowRight,
 } from '@fortawesome/free-solid-svg-icons';
+import Link from '../classes/CustomLink';
 import Paragraph from '../classes/Paragraph';
 
 library.add(
