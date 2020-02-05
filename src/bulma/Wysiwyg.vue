@@ -17,11 +17,11 @@ export default {
     props: {
         toolbar: {
             type: String,
-            default: 'newdocument undo redo bold italic strikethrough underline codesample h2 bullist numlist checklist alignleft aligncenter alignright alignjustify blockquote indent outdent link table emoticons forecolor backcolor preview removeformat',
+            default: 'newdocument undo redo bold italic strikethrough underline codesample h2 bullist numlist alignleft aligncenter alignright alignjustify blockquote indent outdent link table emoticons forecolor backcolor preview removeformat',
         },
         plugins: {
             type: String,
-            default: 'codesample autolink link autoresize casechange lists checklist emoticons formatpainter image preview table',
+            default: 'codesample autolink link autoresize lists emoticons image preview table',
         },
         menubar: {
             type: [String, Boolean],
