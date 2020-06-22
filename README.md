@@ -1,7 +1,7 @@
 # WYSIWYG
 
-[![License](https://poser.pugx.org/laravel-enso/wysiwyg/license)](https://packagist.org/packages/laravel-enso/wysiwyg)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/wysiwyg/version)](https://packagist.org/packages/laravel-enso/wysiwyg)
+[![License](https://poser.pugx.org/enso-ui/wysiwyg/license)](https://packagist.org/packages/enso-ui/wysiwyg)
+[![Latest Stable Version](https://poser.pugx.org/enso-ui/wysiwyg/version)](https://packagist.org/packages/enso-ui/wysiwyg)
 
 WYSIWYG
 
