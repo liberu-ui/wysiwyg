@@ -2,8 +2,7 @@
     <editor v-bind="$attrs"
         :toolbar="toolbar"
         :plugins="plugins"
-        :init="{ menubar }"
-        v-on="$listeners"/>
+        :init="{ menubar }"/>
 </template>
 
 <script>
