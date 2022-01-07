@@ -1,5 +1,5 @@
 <template>
-    <div :class="['wysiwyg-wrapper', {'has-error': hasError}]">
+    <div :class="['wysiwyg-wrapper', {'has-error': hasError}, $attrs.class]">
         <editor v-bind="$attrs"
             :toolbar="toolbar"
             :plugins="plugins"
@@ -14,6 +14,8 @@ export default {
     name: 'Wysiwyg',
 
     components: { Editor },
+
+    inheritAttrs: false,
 
     props: {
         hasError: {
