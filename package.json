@@ -1,5 +1,5 @@
 {
-  "name": "@enso-ui/wysiwyg",
+  "name": "@cgdsoftware/wysiwyg",
   "version": "2.0.7",
   "description": "WYSIWYG",
   "main": "index.js",
