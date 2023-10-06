@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/enso-ui/wysiwyg.git"
+    "url": "git+https://github.com/liberu-ui/wysiwyg.git"
   },
   "keywords": [
     "wysiwyg",
@@ -17,9 +17,9 @@
   "author": "Adrian Ocneanu <aocneanu@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/enso-ui/wysiwyg/issues"
+    "url": "https://github.com/liberu-ui/wysiwyg/issues"
   },
-  "homepage": "https://github.com/enso-ui/wysiwyg#readme",
+  "homepage": "https://github.com/liberu-ui/wysiwyg#readme",
   "dependencies": {
     "@tinymce/tinymce-vue": "^4.0.0",
     "vue": "^3.0"

@@ -1,7 +1,7 @@
 # WYSIWYG
 
-[![License](https://poser.pugx.org/enso-ui/wysiwyg/license)](https://packagist.org/packages/enso-ui/wysiwyg)
-[![Latest Stable Version](https://poser.pugx.org/enso-ui/wysiwyg/version)](https://packagist.org/packages/enso-ui/wysiwyg)
+[![License](https://poser.pugx.org/liberu-ui/wysiwyg/license)](https://packagist.org/packages/liberu-ui/wysiwyg)
+[![Latest Stable Version](https://poser.pugx.org/liberu-ui/wysiwyg/version)](https://packagist.org/packages/liberu-ui/wysiwyg)
 
 WYSIWYG
 
