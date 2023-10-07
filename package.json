@@ -1,6 +1,6 @@
 {
   "name": "@liberu-ui/wysiwyg",
-  "version": "2.0.12",
+  "version": "2.0.13",
   "description": "WYSIWYG",
   "main": "index.ts",
   "scripts": {
